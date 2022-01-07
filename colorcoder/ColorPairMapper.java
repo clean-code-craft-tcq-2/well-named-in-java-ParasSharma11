@@ -1,7 +1,7 @@
 package colorcoder;
 
 public class ColorPairMapper {
-	final static int numberOfMinorColors = ColorCodeConstants.minorColorNames.length;
+	final static int numberOfMinorColors = ColorCodeNames.minorColorNames.length;
 
 	 static ColorPair getColorFromPairNumber(int pairNumber) {
 		int zeroBasedPairNumber = pairNumber - 1;
