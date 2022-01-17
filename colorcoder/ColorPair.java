@@ -16,9 +16,9 @@ public class ColorPair {
             return minorColor;
         }
         String ToString() {
-            String colorPairStr = MajorColorNames[majorColor.getIndex()];
+            String colorPairStr = ColorCodeNames.majorColorNames[majorColor.getIndex()];
             colorPairStr += " ";
-            colorPairStr += MinorColorNames[minorColor.getIndex()];
+            colorPairStr += ColorCodeNames.minorColorNames[minorColor.getIndex()];
             return colorPairStr;
         }
 }
