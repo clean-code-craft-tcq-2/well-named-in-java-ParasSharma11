@@ -3,10 +3,6 @@ package colorcoder;
 public class ColorPair {
         private MajorColor majorColor;
         private MinorColor minorColor;
-        final static String MajorColorNames[] = {
-        "White", "Red", "Black", "Yellow", "Violet"};
-        final static String MinorColorNames[] = {
-        "Blue", "Orange", "Green", "Brown", "Slate"};
         
         public ColorPair(MajorColor major, MinorColor minor)
         {
