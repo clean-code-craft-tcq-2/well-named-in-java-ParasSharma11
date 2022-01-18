@@ -9,5 +9,6 @@ public class Main {
     
         ColorCoderTest.testPairToNumber(MajorColor.BLACK, MinorColor.ORANGE, 12);
         ColorCoderTest.testPairToNumber(MajorColor.VIOLET, MinorColor.SLATE, 25);
+        ColorPairMapper.printReferenceForColorCoding();
     }
 }
