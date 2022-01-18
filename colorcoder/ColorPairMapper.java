@@ -14,7 +14,7 @@ public class ColorPairMapper {
 		return major.getIndex() * numberOfMinorColors + minor.getIndex() + 1;
 	}
 
-	public static void printColorCoding() {
+	public static void printReferenceForColorCoding() {
 		System.out.println("--------Reference manual--------");
 		for (MajorColor majorColor : MajorColor.values()) {
 			for (MinorColor minorColor : MinorColor.values()) {
